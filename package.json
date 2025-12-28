@@ -1,7 +1,7 @@
 {
   "name": "focus-guard",
   "version": "0.1.0",
-  "description": "Focus Guard - A Chrome/Firefox extension",
+  "description": "Focus Guard - A Chrome extension",
   "license": "MIT",
   "private": true,
   "sideEffects": false,
