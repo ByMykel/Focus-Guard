@@ -1,31 +1,11 @@
 {
   "extensionDescription": {
     "description": "Extension description",
-    "message": "Chrome extension boilerplate developed with Vite, React and Typescript"
+    "message": "Focus Guard helps you maintain focus by blocking access to distracting websites. Add domains to your block list and stay productive."
   },
   "extensionName": {
     "description": "Extension name",
-    "message": "Chrome extension boilerplate"
-  },
-  "toggleTheme": {
-    "message": "Toggle theme"
-  },
-  "injectButton": {
-    "message": "Click to inject Content Scripts"
-  },
-  "greeting": {
-    "description": "Greeting message",
-    "message": "Hello, My name is $NAME$",
-    "placeholders": {
-      "name": {
-        "content": "$1",
-        "example": "John Doe"
-      }
-    }
-  },
-  "hello": {
-    "description": "Placeholder example",
-    "message": "Hello $1"
+    "message": "Focus Guard"
   },
   "displayErrorInfo": {
     "message": "Error occur"
@@ -41,5 +21,35 @@
   },
   "displayErrorReset": {
     "message": "Run Again"
+  },
+  "enterDomainPlaceholder": {
+    "message": "Enter domain or URL (e.g., tiktok.com)"
+  },
+  "blocked": {
+    "message": "Blocked"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "invalidDomain": {
+    "message": "Invalid domain format"
+  },
+  "domainExists": {
+    "message": "Domain already exists"
+  },
+  "enable": {
+    "message": "Enable"
+  },
+  "disable": {
+    "message": "Disable"
+  },
+  "noBlockedDomains": {
+    "message": "No blocked domains yet. Add your first domain above to get started."
+  },
+  "addCurrentPage": {
+    "message": "Block Current Page"
+  },
+  "cannotBlockCurrentPage": {
+    "message": "Cannot block this page"
   }
 }

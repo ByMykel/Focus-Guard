@@ -1,7 +1,7 @@
 {
   "name": "@extension/e2e",
   "version": "0.5.0",
-  "description": "E2e tests configuration boilerplate",
+  "description": "E2e tests configuration for Focus Guard",
   "private": true,
   "sideEffects": false,
   "type": "module",

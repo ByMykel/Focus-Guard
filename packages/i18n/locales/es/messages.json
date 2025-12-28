@@ -1,0 +1,55 @@
+{
+  "extensionDescription": {
+    "description": "Descripción de la extensión",
+    "message": "Focus Guard te ayuda a mantener la concentración bloqueando el acceso a sitios web distractores. Añade dominios a tu lista de bloqueo y mantente productivo."
+  },
+  "extensionName": {
+    "description": "Nombre de la extensión",
+    "message": "Focus Guard"
+  },
+  "displayErrorInfo": {
+    "message": "Ocurrió un error"
+  },
+  "displayErrorDescription": {
+    "message": "Lo sentimos, algo salió mal al cargar la página."
+  },
+  "displayErrorDetailsInfo": {
+    "message": "Detalles del error:"
+  },
+  "displayErrorUnknownErrorInfo": {
+    "message": "Error desconocido"
+  },
+  "displayErrorReset": {
+    "message": "Intentar de nuevo"
+  },
+  "enterDomainPlaceholder": {
+    "message": "Ingresa dominio o URL (ej., tiktok.com)"
+  },
+  "blocked": {
+    "message": "Bloqueados"
+  },
+  "remove": {
+    "message": "Eliminar"
+  },
+  "invalidDomain": {
+    "message": "Formato de dominio inválido"
+  },
+  "domainExists": {
+    "message": "El dominio ya existe"
+  },
+  "enable": {
+    "message": "Activar"
+  },
+  "disable": {
+    "message": "Desactivar"
+  },
+  "noBlockedDomains": {
+    "message": "Aún no hay dominios bloqueados. Añade tu primer dominio arriba para comenzar."
+  },
+  "addCurrentPage": {
+    "message": "Bloquear Página Actual"
+  },
+  "cannotBlockCurrentPage": {
+    "message": "No se puede bloquear esta página"
+  }
+}
