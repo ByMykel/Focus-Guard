@@ -42,8 +42,13 @@ const storage = createStorage<BlockedDomain[]>('blocked-domains-storage-key', []
         }
         // Validate new format
         return parsed.filter(
-          (item: unknown) =>
-            item && typeof item === 'object' && typeof item.domain === 'string' && typeof item.enabled === 'boolean',
+          (item: unknown): item is BlockedDomain =>
+            item !== null &&
+            typeof item === 'object' &&
+            'domain' in item &&
+            'enabled' in item &&
+            typeof (item as Record<string, unknown>).domain === 'string' &&
+            typeof (item as Record<string, unknown>).enabled === 'boolean',
         );
       } catch {
         return [];
